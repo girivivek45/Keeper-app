@@ -1,9 +1,9 @@
 const Note = [
-    { title : "WEB D",
+    { title : "WEB Development",
     content : "MERN Stack or Django"
     },
     {
-        title: "APP D",
+        title: "APP Development",
         content: "Flutter , Kotlin , Java"
     },
     {
