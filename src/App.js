@@ -3,6 +3,8 @@ import './App.css';
 import Head from './Head';
 import Note from './Note';
 import Notes from './Notes'
+import Hooks from './Hooks';
+
 
 function createcard(item){
   return < Note title ={item.title} content ={item.content} />;
@@ -13,7 +15,9 @@ function App() {
   return (
     <div>
       <Head/>
+      <Hooks/>
       {Notes.map(createcard)}
+      
     </div>
   );
 }
