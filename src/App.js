@@ -5,6 +5,7 @@ import Note from './Note';
 import Notes from './Notes'
 import Hooks from './Hooks';
 import Form from './Form';
+import Todo from './Todo';
 
 function createcard(item){
   return < Note title ={item.title} content ={item.content} />;
@@ -18,6 +19,7 @@ function App() {
       <Hooks/>
       {Notes.map(createcard)}
       <Form/>
+      
     </div>
   );
 }
