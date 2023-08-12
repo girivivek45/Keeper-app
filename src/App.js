@@ -18,7 +18,7 @@ function App() {
       <Head/>
       <Hooks/>
       {Notes.map(createcard)}
-      <Form/>
+      
       
     </div>
   );
